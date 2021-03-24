@@ -35,7 +35,6 @@ symfony-git:
 	cd symfony && git clone https://github.com/linotype/symfony.git vendor/linotype/symfony
 	cd symfony && rm -rf linotype
 	cd symfony && git clone https://github.com/linotype/starter.git linotype
-	echo ''
 
 symfony-up:
 	cd symfony && symfony serve
